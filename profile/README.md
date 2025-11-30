@@ -12,7 +12,7 @@ This project aims to develop an **efficient, secure, and automated payroll manag
 
 ## 👩‍💻 Developed By  
 **Chelsea • Ashlee • Joane • Sophia**  
-*BSIT Students — Web Systems Project*
+*BSIT Students — Database Systems1 Project*
 
 ---
 
