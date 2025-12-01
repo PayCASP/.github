@@ -1,72 +1,104 @@
-# PAYROLL SYSTEM  FOR THE Visa Center (Dizon Immigration)
-### A Web-Based Payroll Records and Management Platform
+<div align="center">
+
+# **PAYROLL SYSTEM**  
+### **for The Visa Center (Dizon Immigration Services)**  
+#### *A Web-Based Payroll Records and Management Platform*
 
 ---
 
-## 📌 Project Overview  
-The payroll records management system at the newly established **Davao City branch of The Visa Center (Dizon Immigration Services)** currently depends on manual encoding and Microsoft Excel spreadsheets. While spreadsheets provide basic organization, they **lack scalability, automation, and accuracy**, especially as employee data grows.
+## 👩‍💻 **Developed By**
 
-This project aims to develop an **efficient, secure, and automated payroll management system** that reduces errors, speeds up processing, and supports the branch's operational expansion.
+<table>
+  <tr>
+    <td align="center"><strong>Chelsea</strong></td>
+    <td align="center"><strong>Ashlee</strong></td>
+    <td align="center"><strong>Joane</strong></td>
+    <td align="center"><strong>Sophia</strong></td>
+  </tr>
+</table>
+
+*BSIT Students — Database Systems 1 Project*  
+**Adviser:** Kent Vincent Sarsalejo  
+
+</div>
 
 ---
 
-## 👩‍💻 Developed By  
-**Chelsea • Ashlee • Joane • Sophia**  
-*BSIT Students — Database Systems1 Project*
+## 📌 Project Overview
+The payroll process at the newly established **Davao City branch of The Visa Center (Dizon Immigration Services)** is currently performed manually using Microsoft Excel. While spreadsheets offer basic organization, they lack **automation, scalability, and accuracy**, especially as employee data grows.
+
+This system aims to provide an **automated, secure, and centralized payroll management platform** that reduces human errors, speeds up data processing, and supports future company expansion.
 
 ---
 
-## 🎯 Project Goals  
+## 🎯 Project Goals
 - Replace manual Excel-based payroll handling  
-- Automate salary computation and deductions  
-- Reduce human errors and duplicate records  
+- Automate salary computations and deductions  
+- Minimize human error and duplicate records  
 - Improve HR productivity and data processing  
-- Ensure secure and centralized payroll storage  
-- Support future scalability as the company expands  
+- Ensure secure, centralized payroll storage  
+- Support system scalability as the company expands  
 
 ---
 
-## ⚙️ Core Features  
-### ✔ Employee Management  
-- Add, update, and manage employee profiles  
+# 🛠 Technology Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-orange" />
+  <img src="https://img.shields.io/badge/CSS-3-blue" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow" />
+  <img src="https://img.shields.io/badge/MySQL-Database-blue" />
+  <img src="https://img.shields.io/badge/PostgreSQL-DB-blueviolet" />
+  <img src="https://img.shields.io/badge/Backend-Laravel%2FDjango%2FSpringBoot-red" />
+  <img src="https://img.shields.io/badge/Hosting-Firewall-lightgrey" />
+</p>
+
+---
+
+# 🧩 System Overview
+
+| Component                | Technology                         | Hosting            | Description |
+|-------------------------|-------------------------------------|--------------------|-------------|
+| **Frontend**            | HTML, CSS, JavaScript               | Firewall / Local   | Handles UI, dashboards, employee forms |
+| **Authentication**      | Laravel / Django / Backend Auth     | Local Server       | Manages secure login and role access |
+| **Database**            | MySQL / PostgreSQL                  | Local / Firewall   | Stores payroll data, attendance, and employee info |
+| **Backend / Automation**| Laravel / Django / Spring Boot      | Local Server       | Automates deductions, salary computation, and report generation |
+| **Storage (Optional)**  | Local File Storage                  | Local Server       | Stores payslips, reports, and exported files |
+
+---
+
+# ⚙️ Core Features
+
+### ✔ Employee Management
+- Add, update, and manage employee information  
 - Track employment status and salary details  
 
-### ✔ Payroll Computation  
-- Automated salary calculation  
-- Absences, tardiness, and overtime computation  
-- Government deductions (SSS, PhilHealth, Pag-IBIG)
+### ✔ Automated Payroll Computation
+- Salary based on attendance  
+- Tardiness, absences, overtime calculations  
+- Automatic computation of government deductions:  
+  - **SSS**  
+  - **PhilHealth**  
+  - **Pag-IBIG**  
 
-### ✔ Timesheet & Attendance  
-- Input or import attendance records  
-- Auto-generate payroll based on attendance  
+### ✔ Timesheet & Attendance
+- Input or import attendance logs  
+- System auto-generates payroll based on attendance  
 
-### ✔ Secure Data Storage  
+### ✔ Secure Data Storage
 - Centralized database  
-- Role-based access (Admin, HR Staff)
+- Role-based access (Admin, HR Staff)  
 
-### ✔ Reports & Export  
-- Payslip generation  
-- Export payroll summaries (PDF / Excel)
-
----
-
-## 🛠 Tech Stack  
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** (Add your tech here, e.g., PHP / Node.js / Python)  
-- **Database:** MySQL / PostgreSQL  
-- **Hosting:** GitHub / Local Server / Cloud (choose one)
+### ✔ Reports & Export
+- Generate payslips  
+- Export payroll summaries (PDF / Excel)  
 
 ---
 
+# 📌 Conclusion
+This Web-Based Payroll System modernizes the payroll operations of the **Davao City branch of The Visa Center (Dizon Immigration Services)**. By replacing manual spreadsheets with an automated and secure system, it enhances accuracy, reduces processing time, and improves overall HR efficiency.
 
+Built with **HTML, CSS, JavaScript, MySQL/PostgreSQL**, and a backend framework of your choice, the system ensures a **secure, scalable, and efficient payroll workflow**.
 
-<!--
+---
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
