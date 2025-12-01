@@ -67,38 +67,64 @@ This system aims to provide an **automated, secure, and centralized payroll mana
 
 ---
 
-# ⚙️ Core Features
+# ⚙️ Core Features (Workflow-Based)
 
-### ✔ Employee Management
-- Add, update, and manage employee information  
-- Track employment status and salary details  
+### **1. Initial Setup**
+- Install system → Create first admin user → Login as admin  
 
-### ✔ Automated Payroll Computation
-- Salary based on attendance  
-- Tardiness, absences, overtime calculations  
-- Automatic computation of government deductions:  
-  - **SSS**  
-  - **PhilHealth**  
-  - **Pag-IBIG**  
+### **2. Employee Onboarding (HR)**
+- Add employee → System creates user account + employee record  
+- Auto-creates leave balances (Vacation, Sick, Personal)  
+- Set work schedule (start/end times, hours per day)  
+- Set leave entitlements  
 
-### ✔ Timesheet & Attendance
-- Input or import attendance logs  
-- System auto-generates payroll based on attendance  
+### **3. Daily Operations**
+- Employee clocks in/out → Creates attendance log  
+- HR can manually log attendance if needed  
+- HR manages holidays (affects payroll calculations)  
 
-### ✔ Secure Data Storage
-- Centralized database  
-- Role-based access (Admin, HR Staff)  
+### **4. Leave Management**
+- Employee files leave request → Status: Pending  
+- HR approves/rejects → System auto-calculates working days  
+- Database triggers deduct leave balance if approved  
+- Excludes weekends and holidays automatically  
 
-### ✔ Reports & Export
-- Generate payslips  
-- Export payroll summaries (PDF / Excel)  
+### **5. Payroll Processing (Monthly)**
+- HR runs payroll → Enters pay period dates  
+- System calculates each active employee:  
+  - Time & Attendance: Regular hours, Overtime, Late minutes  
+  - Base salary (prorated if < 160 hours)  
+  - Overtime pay (1.25× rate)  
+  - Statutory deductions (SSS, PhilHealth, Pag-IBIG)  
+  - Withholding tax (BIR TRAIN Law)  
+  - Net pay  
+- Creates payslip for each employee  
+- HR reviews summary → Employees can view payslips  
+
+### **6. Employee Self-Service**
+- View dashboard (clock status, leave balances)  
+- Clock in/out  
+- View payslips  
+- File leave requests  
+- View leave history  
+
+---
+
+# ⭐ Additional System Features
+- Automatic leave balance management via database triggers  
+- Working days calculation excludes weekends & holidays  
+- Payroll calculations include T&A integration  
+- Audit logging for all admin actions  
+- Role-based access control (Admin, Payroll_Admin, Employee)  
+- Complete workflow document saved as **WORKFLOW.md**  
 
 ---
 
 # 📌 Conclusion
-This Web-Based Payroll System modernizes the payroll operations of the **Davao City branch of The Visa Center (Dizon Immigration Services)**. By replacing manual spreadsheets with an automated and secure system, it enhances accuracy, reduces processing time, and improves overall HR efficiency.
+This Web-Based Payroll System modernizes the payroll operations of the **Davao City branch of The Visa Center (Dizon Immigration Services)**. By replacing manual spreadsheets with an automated and secure system, it enhances accuracy, reduces processing time, and improves HR efficiency.
 
 Built with **HTML, CSS, JavaScript, MySQL/PostgreSQL**, and a backend framework of your choice, the system ensures a **secure, scalable, and efficient payroll workflow**.
 
 ---
+
 
