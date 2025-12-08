@@ -18,7 +18,7 @@
 </table>
 
 *BSIT Students — Database Systems 1 Project*  
-**Adviser:** Kent Vincent Sarsalejo  
+**Advisers:** Kent Vincent Sarsalejo and Keana Cerela Giron 
 
 </div>
 
